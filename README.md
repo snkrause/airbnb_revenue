@@ -13,22 +13,26 @@ There should be no necessary libraries to run the code here beyond the Anaconda 
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interestested in using Stack Overflow data from 2017 to better understand:
+This is my first project for my udacity Nanodegree Data Science. I used the airbnb datasets provided on kaggle.com (see links below) to understand the airbnb market in more detail and to find the influence factors that maximize the revenue. In particular I wanted to answer the following questions: 
 
-1. How other developers suggested breaking into the field (what education to pursue)?
-2. What factors about an individual contributed to salary?
-3. How bias played a role in the suggestions of developers for how to break into the field?
-4. What was the state of bootcamps for assisting individuals with breaking into developer roles?
-5. How were bootcamps assisting with increasing diversity in tech careers?
+1. What is the main factor for high revenue?
+2. Which neighbourhoods in Boston and Seattle are giving the most revenue and which ones the least?
+3. Is more lucrative to rent out a full apartment/house or individual rooms?
+4. How important are the review scores and which one in particular?
+5. Which months are yielding the highest revenue in Boston vs. Seattle?
 
-The full set of files related to this course are owned by Udacity, so they are not publicly available here.  However, you can see pieces of the analysis here.  This README also serves as a template for students to follow in creating their own project README files.
-
+Those questions are all addressed in the jupyter notebook in this repository and in mor detail in my blogpost (see results)
 
 ## File Descriptions <a name="files"></a>
 
-There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
+The data for this project was downloaded from kaggle.com:
+[Seattle](https://www.kaggle.com/airbnb/seattle/data)
+[Boston](https://www.kaggle.com/airbnb/boston)
 
-There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
+There are two files available here:
+
+- data_prep.py: a commented python library with all the functions used in the jupyter notebook 
+- 2021_02_Krause_Blogpost.ipynb: a commented jupyter notebook that produces the graphs for the blogpost. 
 
 ## Results<a name="results"></a>
 
