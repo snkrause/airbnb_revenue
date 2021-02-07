@@ -25,10 +25,6 @@ Those questions are all addressed in the jupyter notebook in this repository and
 
 ## File Descriptions <a name="files"></a>
 
-The data for this project was downloaded from kaggle.com:
-[Seattle](https://www.kaggle.com/airbnb/seattle/data)
-[Boston](https://www.kaggle.com/airbnb/boston)
-
 There are two files available here:
 
 - data_prep.py: a commented python library with all the functions used in the jupyter notebook 
@@ -40,4 +36,6 @@ The main findings of the code can be found at the post available [here](https://
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data).  Otherwise, feel free to use the code here as you would like! change
+I want to thank airbnb for providing the data for this project. You can find the Licensing for the data and other descriptive information at the Kaggle links ([Boston](https://www.kaggle.com/airbnb/boston), [Seattle](https://www.kaggle.com/airbnb/seattle/data).
+
+Otherwise, feel free to use the code here as you would like! 
