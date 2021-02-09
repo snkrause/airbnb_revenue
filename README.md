@@ -16,8 +16,8 @@ There should be no necessary libraries to run the code here beyond the Anaconda 
 This is my first project for my udacity Nanodegree Data Science. I used the airbnb datasets provided on kaggle.com (see links below) to understand the airbnb market in more detail and to find the influence factors that maximize the revenue. In particular I wanted to answer the following questions: 
 
 1. What is the main factor for high revenue?
-2. Which neighbourhoods in Boston and Seattle are giving the most revenue and which ones the least?
-3. Is more lucrative to rent out a full apartment/house or individual rooms?
+2. Which neighborhoods in Boston and Seattle are giving the most revenue?
+3. Is it more lucrative to rent out a full apartment/house or individual rooms?
 4. How important are the review scores and which one in particular?
 5. Which months are yielding the highest revenue in Boston vs. Seattle?
 
@@ -32,7 +32,7 @@ There are two files available here:
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+The main findings of the code can be found at the post available [here](https://snkrause.medium.com/how-to-get-the-most-revenue-from-your-airbnb-property-41a256717226).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
