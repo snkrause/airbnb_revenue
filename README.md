@@ -36,6 +36,6 @@ The main findings of the code can be found at the post available [here](https://
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-I want to thank airbnb for providing the data for this project. You can find the Licensing for the data and other descriptive information at the Kaggle links ([Boston](https://www.kaggle.com/airbnb/boston), [Seattle](https://www.kaggle.com/airbnb/seattle/data).
+I want to thank airbnb for providing the data for this project. You can find the Licensing for the data and other descriptive information at the Kaggle links ([Boston](https://www.kaggle.com/airbnb/boston), [Seattle](https://www.kaggle.com/airbnb/seattle/data)).
 
 Otherwise, feel free to use the code here as you would like! 
