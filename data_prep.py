@@ -147,7 +147,7 @@ def preprocess_listings(listing, calendar_revenue):
     listing=listing.drop(columns=non_num_drop)
     
     #manual choice of columns to drop
-    col_drop=g=['room_type','property_type','neighbourhood'] 
+    col_drop=g=['room_type', 'neighbourhood'] 
     listing=listing.drop(columns=col_drop)
     
     #select columns to remove dollar sign
@@ -164,10 +164,7 @@ def preprocess_listings(listing, calendar_revenue):
     for col in non_num_to_count:
         listing[col+'_count']=listing[col].apply(lambda x: len(str(x)))
         listing.drop(col, axis=1, inplace=True)
-           
-    #drop all rows with nans
-    listing=listing.dropna(axis=0, how='any')
-    
+               
     #turn categoricals into machine processable
     cat_cols=list(listing.select_dtypes(include=['object']).columns)
     listing_transformed=listing
@@ -188,7 +185,14 @@ def preprocess_listings(listing, calendar_revenue):
     neighbourhoods=df_vis['neighbourhood_cleansed'].value_counts().reset_index()
     drop_neighbourhoods=neighbourhoods[neighbourhoods['neighbourhood_cleansed']<10]['index'].to_list()
     df=df.drop(columns=["neighbourhood_cleansed_"+s for s in drop_neighbourhoods])
+
+    #drop property_types with less than 10 listings
+    property_type=df_vis['property_type'].value_counts().reset_index()
+    drop_property=property_type[property_type['property_type']<20]['index'].to_list()
+    df=df.drop(columns=["property_type_"+s for s in drop_property])
     
+    #drop all rows with nans
+    df=df.dropna(axis=0, how='any')   
     
     return df_vis, df
 
